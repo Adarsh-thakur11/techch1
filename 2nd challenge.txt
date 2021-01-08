@@ -1,0 +1,43 @@
+challenge 2 :-
+ 
+1. create a function
+2. get the string ( ex- 00064833255500543076233434343400)
+3. create the array with the same length as string
+4. Traverse over the string to copy character at the i'th index of string to i'th index in the array.
+5. length of the array is 'n' which same as string then
+                                            for(int i=0 ; i<n; i++) 
+                                                 {
+                                                 if( i%2!=0)
+                                                 {  
+                                                    if(array[i]==0)
+                                                        then remove the 0 at array[i] 
+                                                    else 
+                                                         print(" no more 0 present at even index);
+                                                  }
+                                                 else
+                                                   {
+                                                     if (array[i]==2) 
+                                                         then swap the 2 with 0 at that array index
+                                                    }
+                                                  if(array[i]==0)
+                                                     {
+                                                       int count=0;
+                                                       count++;
+                                                       if (count>0)
+                                                         {
+                                                           then 
+                                                           array[i-1] is removed
+                                                           count =0;
+                                                          }
+                                               print the array;
+                                             }
+                                                      
+
+                                                  
+                                                  
+6. goto step 5 and check if there is any 0 present at even indexes in the array
+7. add commas after in between every 3 indexes  of the array
+8. print the array which is the final output 
+                                  ex:- 06,483,355,554,376,334,343,434
+              
+                                                          

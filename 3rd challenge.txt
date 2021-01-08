@@ -1,0 +1,52 @@
+1. create a function 
+2. get the string
+3. get the length of the string
+4. create the array with the same length as string
+5. Traverse over the string to copy character at the i'th index of string to i'th index in the array.
+6. Now 
+          int x=0,y=0,z=0,;
+          int i,j,k; 
+          char new[];
+          for(i=0; i<n;i++)
+              { 
+                if(array[i]== characters(Only numbers and letters)
+                       x=0;
+                       y=0;
+                       z=0;                   
+                        then
+
+                       if(array[i]==upper case)
+                            x=x+2;
+                         
+                       if(array[i]==lower case)
+                           y++;
+                       
+                       if(array[i]==numbers)
+                            z++;
+                 for(j=0;j<n;j++)
+                      {
+                       if(array[i]==new[j])
+                          then 
+                          new[j]=array[i]+x+y+z;
+                    }
+            
+            for(k=0;k<n;k++)
+             {
+              print(""new[k]);
+             }
+ 7. we will get the count of occurence of each digit/character in the input
+                 
+               
+                       
+                    
+       
+
+
+
+
+
+
+     
+                     
+                                          
+                                           
